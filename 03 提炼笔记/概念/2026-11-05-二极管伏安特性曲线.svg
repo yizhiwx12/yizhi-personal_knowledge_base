@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 520" role="img" aria-labelledby="svg-title svg-desc">
+  <title id="svg-title">二极管定性伏安特性曲线</title>
+  <desc id="svg-desc">横轴为二极管电压，纵轴为二极管电流。曲线展示正向电流快速上升、反向漏电较小以及反向击穿后电流快速增大的典型趋势。曲线不按比例绘制，实际特性随材料、结构、温度和器件型号变化。</desc>
+  <rect width="820" height="520" fill="#fff" />
+  <text x="410" y="34" text-anchor="middle" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="20" fill="#172a35">二极管定性 I–V 特性（不按比例）</text>
+  <g stroke="#dce4e8" stroke-width="1">
+    <path d="M120 105H735 M120 165H735 M120 225H735 M120 285H735 M120 345H735 M120 405H735" />
+    <path d="M210 70V430 M300 70V430 M390 70V430 M480 70V430 M570 70V430 M660 70V430" />
+  </g>
+  <g stroke="#263943" stroke-width="2.2" fill="none">
+    <path d="M120 250H755" />
+    <path d="M390 430V68" />
+    <path d="M745 242L755 250L745 258" />
+    <path d="M382 78L390 68L398 78" />
+  </g>
+  <g fill="#344b57" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="14">
+    <text x="765" y="255">V_D (V)</text>
+    <text x="400" y="78">I_D (A)</text>
+    <text x="382" y="451">0</text>
+    <text x="120" y="470">反向偏置</text>
+    <text x="620" y="470">正向偏置</text>
+  </g>
+  <path d="M155 405 C165 395 172 350 182 315 C191 282 198 263 210 255 C270 250 325 250 390 250 C455 250 490 247 520 225 C548 205 558 155 575 105 C592 60 620 54 700 50" fill="none" stroke="#176889" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M538 213L566 140" fill="none" stroke="#d45235" stroke-width="2" stroke-dasharray="5 4" />
+  <circle cx="552" cy="176" r="5" fill="#d45235" stroke="#fff" stroke-width="2" />
+  <text x="578" y="144" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="13" font-weight="600" fill="#a83e28">Q 点局部切线（r_d）</text>
+  <g fill="#a83e28" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="14" font-weight="600">
+    <text x="128" y="365">反向击穿区</text>
+    <text x="215" y="283">反向漏电区</text>
+    <text x="556" y="294">正向导通区</text>
+  </g>
+  <g stroke="#596b76" stroke-width="1.3" fill="none">
+    <path d="M177 370L190 321" />
+    <path d="M300 278L325 253" />
+    <path d="M560 280L540 236" />
+  </g>
+  <g fill="#52636c" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="12.5">
+    <text x="410" y="495" text-anchor="middle">定性示意：曲线形状与拐点不按比例；不同材料、结构和温度下的特性不同。</text>
+  </g>
+</svg>

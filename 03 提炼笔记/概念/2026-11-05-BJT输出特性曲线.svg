@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="620" viewBox="0 0 1000 620" role="img" aria-labelledby="title desc">
+  <title id="title">BJT 共射输出特性曲线与直流负载线</title>
+  <desc id="desc">集电极电流 I_C 随集电极-发射极电压 V_CE 变化的多条曲线，曲线以基极电流 I_B 为参变量。橙红色负载线与 I_B 约为 30 微安的曲线交于 Q 点，位于放大区。图中标出饱和区、放大区和截止区。参数仅为示意。</desc>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#596b76" />
+    </marker>
+  </defs>
+  <rect width="1000" height="620" fill="#ffffff" />
+  <text x="500" y="32" text-anchor="middle" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="19" font-weight="600" fill="#172a35">BJT 共射输出特性曲线与直流负载线</text>
+
+  <rect x="110" y="85" width="20" height="410" fill="#f6e9c8" />
+  <rect x="110" y="488" width="680" height="7" fill="#e8eef1" />
+
+  <g stroke="#dbe3e7" stroke-width="1">
+    <path d="M110 436.4H790 M110 377.9H790 M110 319.3H790 M110 260.7H790 M110 202.1H790 M110 143.6H790 M110 85H790" />
+    <path d="M210 85V495 M310 85V495 M410 85V495 M510 85V495 M610 85V495 M710 85V495" />
+  </g>
+
+  <g fill="none" stroke="#176889" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M110 483.3 C118 483.3 126 457.5 135 450.5 C148 441.1 160 436.4 175 436.4 C330 434.4 560 433.4 790 433.4" />
+    <path d="M110 471.6 C118 471.6 126 420.1 135 406 C148 387.3 160 377.9 175 377.9 C330 375.9 560 374.9 790 374.9" />
+    <path d="M110 459.9 C118 459.9 126 382 135 361.5 C148 333.4 160 319.3 175 319.3 C330 317.3 560 316.3 790 316.3" />
+    <path d="M110 448.1 C118 448.1 126 345.1 135 316.9 C148 279.5 160 260.7 175 260.7 C330 258.7 560 257.7 790 257.7" />
+    <path d="M110 436.4 C118 436.4 126 307.5 135 272.4 C148 225.5 160 202.1 175 202.1 C330 200.1 560 199.1 790 199.1" />
+    <path d="M110 425.6 C118 425.6 126 270 135 227.9 C148 171.7 160 143.6 175 143.6 C330 141.6 560 140.6 790 140.6" />
+    <path d="M110 413.7 C118 413.7 126 232.6 135 183.4 C148 117.8 160 85 175 85 C330 83 560 82 790 82" />
+    <path d="M145 491.5 C310 491 560 490.5 790 490" stroke-width="1.8" />
+  </g>
+
+  <path d="M110 143.6 L710 495" fill="none" stroke="#d45235" stroke-width="3.2" stroke-linecap="round" />
+
+  <g stroke="#263943" stroke-width="2.2" fill="none">
+    <path d="M110 495H800 M110 505V75" />
+  </g>
+  <g fill="#344b57" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="13">
+    <text x="98" y="499" text-anchor="end">0</text>
+    <text x="98" y="440" text-anchor="end">10</text>
+    <text x="98" y="382" text-anchor="end">20</text>
+    <text x="98" y="323" text-anchor="end">30</text>
+    <text x="98" y="265" text-anchor="end">40</text>
+    <text x="98" y="206" text-anchor="end">50</text>
+    <text x="98" y="148" text-anchor="end">60</text>
+    <text x="98" y="90" text-anchor="end">70</text>
+    <text x="110" y="520" text-anchor="middle">0</text>
+    <text x="210" y="520" text-anchor="middle">1</text>
+    <text x="310" y="520" text-anchor="middle">2</text>
+    <text x="410" y="520" text-anchor="middle">3</text>
+    <text x="510" y="520" text-anchor="middle">4</text>
+    <text x="610" y="520" text-anchor="middle">5</text>
+    <text x="710" y="520" text-anchor="middle">6</text>
+    <text x="790" y="520" text-anchor="middle">6.8</text>
+  </g>
+  <text x="43" y="292" transform="rotate(-90 43 292)" text-anchor="middle" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="16" fill="#172a35">集电极电流 I_C (mA)</text>
+  <text x="455" y="590" text-anchor="middle" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="16" fill="#172a35">集电极-发射极电压 V_CE (V)</text>
+
+  <path d="M130 85V495" stroke="#b78a35" stroke-width="1.5" stroke-dasharray="5 5" />
+  <text x="142" y="109" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="14" font-weight="600" fill="#765714">饱和区</text>
+  <path d="M183 113 L135 177" stroke="#596b76" stroke-width="1.3" marker-end="url(#arrow)" />
+  <text x="542" y="350" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="14" font-weight="600" fill="#315c47">放大区</text>
+  <text x="642" y="478" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="13" font-weight="600" fill="#49616d">截止区</text>
+  <text x="117" y="548" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="13" fill="#765714">V_CE(sat) ≈ 0.2 V</text>
+
+  <g font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="12.5" fill="#14516b">
+    <text x="803" y="87">I_B = 70 µA</text>
+    <text x="803" y="145">I_B = 60 µA</text>
+    <text x="803" y="203">I_B = 50 µA</text>
+    <text x="803" y="262">I_B = 40 µA</text>
+    <text x="803" y="320">I_B = 30 µA</text>
+    <text x="803" y="379">I_B = 20 µA</text>
+    <text x="803" y="438">I_B = 10 µA</text>
+    <text x="803" y="487">I_B = 0</text>
+  </g>
+
+  <circle cx="410" cy="319.3" r="6" fill="#23845d" stroke="#ffffff" stroke-width="2" />
+  <path d="M419 313 L439 292" stroke="#23845d" stroke-width="1.4" />
+  <text x="445" y="287" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="13" font-weight="600" fill="#176343">Q 点：V_CE = 3 V，I_C = 30 mA</text>
+
+  <path d="M530 414 L506 374" stroke="#d45235" stroke-width="1.4" marker-end="url(#arrow)" />
+  <text x="516" y="433" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="13" font-weight="600" fill="#a83e28">直流负载线</text>
+  <text x="126" y="132" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="12.5" fill="#a83e28">V_CC / R_C = 60 mA</text>
+  <text x="652" y="546" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="13" fill="#a83e28">V_CE = V_CC = 6 V</text>
+  <text x="845" y="568" text-anchor="end" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="12" fill="#536771">示意参数：V_CC = 6 V，R_C = 100 Ω</text>
+</svg>
